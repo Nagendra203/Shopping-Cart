@@ -147,6 +147,18 @@
 </plugin>
         </plugins>
     </build>
+<distributionManagement>
+    <repository>
+      <id>maven3-releases</id>
+      <name>maven3-releases</name>
+      <url>http://52.66.200.22:8081/repository/maven3-releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven3-snapshots</id>
+      <name>maven3-snapshots</name>
+      <url>http://52.66.200.22:8081/repository/maven3-snapshots</url>
+    </snapshotRepository>
+</distributionManagement>
 
 
 </project>
